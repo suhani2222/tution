@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NurtureNest Home Academy — Jr. KG to Std. 8 Tuition | Near Balaji Mandir</title>
+    <meta name="description" content="Small-group home tuition for Jr. KG, Sr. KG, and Standards 1 to 8 at Shree Hari Darshan Residency (Flat 704), Near Balaji Mandir. All subjects, 1.5-hour daily batches, pre-admission level check, and Saturday WhatsApp test reports.">
+    
+    <!-- Open Graph / Social Meta (GitHub Pages Ready) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NurtureNest Home Academy — Jr. KG to Std. 8 Tuition">
+    <meta property="og:description" content="1.5-hour daily batches (3 PM – 7 PM) for Jr./Sr. KG & Std. 1–8. Pre-admission baseline check, 2-day free trial, and weekly Saturday test reports on WhatsApp.">
+    <meta name="theme-color" content="#FAF8F5">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Newsreader (Editorial Serif), Plus Jakarta Sans (Clean UI Sans), JetBrains Mono (Tabular Numerals) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Newsreader', 'Georgia', 'serif'],
+                        sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        paper: {
+                            DEFAULT: '#FAF8F5',
+                            warm: '#F3EFEA',
+                            deep: '#EAE4DC',
+                            border: '#E6E0D6',
+                            hairline: '#D8D0C5'
+                        },
+                        ink: {
+                            DEFAULT: '#1C1917',
+                            secondary: '#52525B',
+                            muted: '#71717A'
+                        },
+                        terracotta: {
+                            DEFAULT: '#C2410C',
+                            hover: '#9A3412',
+                            tint: '#FFF7ED',
+                            border: '#FDBA74'
+                        },
+                        forest: {
+                            DEFAULT: '#14532D',
+                            hover: '#166534',
+                            tint: '#F0FDF4',
+                            border: '#BBF7D0'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Unslop Base Typography & Architectural Rules */
+        body {
+            background-color: #FAF8F5;
+            color: #1C1917;
+            font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .tabular-nums {
+            font-variant-numeric: tabular-nums;
+        }
+        /* Offset for sticky header so anchor jumps never cover headings */
+        section[id] {
+            scroll-margin-top: 84px;
+        }
+        /* Crisp notebook ruling for the interactive report artifact */
+        .notebook-paper {
+            background-color: #FFFFFF;
+            background-image: linear-gradient(#F1EDE6 1px, transparent 1px);
+            background-size: 100% 28px;
+        }
+        /* Smooth state transitions (160ms ease-out) */
+        .transition-crisp {
+            transition: all 160ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        /* Fluid responsive hero heading */
+        .hero-heading {
+            font-size: clamp(2rem, 4.2vw, 3.25rem);
+            line-height: 1.09;
+        }
+        /* Touch-friendly target sizing */
+        .touch-target {
+            min-height: 46px;
+        }
+
+        /* =====================================================================
+           TRUE 390px MOBILE SIMULATOR MODE (.is-mobile-preview)
+           Forces authentic mobile phone layout even when viewed on a wide screen
+           ===================================================================== */
+        body.is-mobile-preview {
+            background-color: #27272A;
+            padding: 0 0 40px 0;
+        }
+        body.is-mobile-preview #site-viewport-wrapper {
+            max-width: 390px;
+            margin: 20px auto 0;
+            background-color: #FAF8F5;
+            border: 8px solid #18181B;
+            border-radius: 36px;
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.55);
+            overflow-x: hidden;
+            position: relative;
+        }
+        /* Explicitly switch header from Desktop to Mobile inside the 390px frame */
+        body.is-mobile-preview .desktop-nav-group {
+            display: none !important;
+        }
+        body.is-mobile-preview .mobile-nav-group {
+            display: flex !important;
+        }
+        body.is-mobile-preview .mobile-bottom-bar {
+            display: grid !important;
+            position: sticky !important;
+            bottom: 0 !important;
+        }
+        /* Stack all multi-column grids into 1 column inside the 390px frame */
+        body.is-mobile-preview .sim-stack {
+            grid-template-columns: 1fr !important;
+        }
+        body.is-mobile-preview .sim-col-span-full {
+            grid-column: span 1 / span 1 !important;
+        }
+        body.is-mobile-preview .hero-heading {
+            font-size: 1.95rem !important;
+            line-height: 1.14 !important;
+        }
+        body.is-mobile-preview .sim-px {
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+        }
+    </style>
+</head>
+<body class="selection:bg-terracotta selection:text-white pb-20 lg:pb-0">
+
+    <!-- Top Utility Ledger Bar with Desktop/Mobile View Simulator Toggle -->
+    <div class="bg-paper-warm border-b border-paper-border text-ink-secondary text-xs">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2 flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5">
+                <span class="inline-flex items-center gap-1.5 font-mono text-[10px] sm:text-[11px] uppercase tracking-wider text-forest font-medium bg-forest-tint px-2 py-0.5 rounded border border-forest-border shrink-0">
+                    <span class="w-1.5 h-1.5 rounded-full bg-forest animate-pulse"></span>
+                    Admissions Open
+                </span>
+                <span class="text-ink font-medium text-[11px] sm:text-xs whitespace-nowrap">Jr. KG – Std. 8 (All Subjects)</span>
+            </div>
+
+            <div class="flex items-center gap-3 sm:gap-4 font-mono text-[11px] tabular-nums text-ink-secondary">
+                <span class="hidden xl:inline">FLAT 704, SHREE HARI DARSHAN RESIDENCY</span>
+                <span class="hidden xl:inline text-paper-hairline">|</span>
+                <span class="hidden sm:inline">3:00 PM – 7:00 PM (1.5 HR)</span>
+                <!-- Interactive Mobile/Desktop Preview Switcher (Visible on Desktop/Tablet) -->
+                <div class="hidden md:inline-flex items-center bg-paper border border-paper-hairline rounded p-0.5 text-[10px]">
+                    <button type="button" id="view-btn-desktop" onclick="setViewportMode('desktop')" class="px-2.5 py-1 rounded bg-ink text-paper font-semibold transition-crisp">
+                        Desktop View
+                    </button>
+                    <button type="button" id="view-btn-mobile" onclick="setViewportMode('mobile')" class="px-2.5 py-1 rounded text-ink-secondary hover:text-ink font-semibold transition-crisp">
+                        Mobile View (390px)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Viewport Wrapper (Enables live 390px mobile frame testing on desktop) -->
+    <div id="site-viewport-wrapper">
+
+        <!-- FIXED / STICKY UNCLUSTERED NAVIGATION HEADER -->
+        <header id="main-header" class="sticky top-0 z-50 border-b border-paper-border transition-crisp" style="background: rgba(250, 248, 245, 0.96); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+                
+                <!-- Left: Unclipped Brand Identity (NEVER truncates) -->
+                <a href="#" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-none shrink-0 whitespace-nowrap">
+                    <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-ink text-paper flex items-center justify-center font-serif text-xl font-medium tracking-tight group-hover:bg-terracotta transition-crisp shrink-0">
+                        N
+                    </div>
+                    <div class="shrink-0">
+                        <span class="block font-serif text-xl sm:text-[22px] font-medium tracking-tight text-ink leading-none whitespace-nowrap">
+                            NurtureNest
+                        </span>
+                        <span class="block font-mono text-[10px] uppercase tracking-wider text-ink-muted mt-1 whitespace-nowrap">
+                            HOME ACADEMY <span class="text-terracotta font-semibold">· JR. KG – STD. 8</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Center: Single-Line Desktop Navigation Links (>= 1024px / lg:) -->
+                <nav class="desktop-nav-group hidden lg:flex items-center gap-6 xl:gap-8 text-[13px] font-medium text-ink-secondary whitespace-nowrap" aria-label="Main Navigation">
+                    <a href="#system" class="hover:text-terracotta transition-crisp py-1 whitespace-nowrap">3-Step Method</a>
+                    <a href="#curriculum" class="hover:text-terracotta transition-crisp py-1 whitespace-nowrap">Classes (KG–8)</a>
+                    <a href="#batches" class="hover:text-terracotta transition-crisp py-1 whitespace-nowrap">Batch Timings</a>
+                    <a href="#tutor" class="hover:text-terracotta transition-crisp py-1 whitespace-nowrap">About Tutor</a>
+                    <a href="#location" class="hover:text-terracotta transition-crisp py-1 whitespace-nowrap">Location</a>
+                </nav>
+
+                <!-- Right: Desktop Action Buttons (>= 1024px / lg:) -->
+                <div class="desktop-nav-group hidden lg:flex items-center gap-2.5 shrink-0 whitespace-nowrap">
+                    <a href="tel:+919157579600"
+                       class="px-3 py-2 rounded-md border border-paper-hairline bg-white hover:bg-paper-warm text-ink font-mono text-xs font-semibold tabular-nums inline-flex items-center gap-1.5 transition-crisp whitespace-nowrap">
+                        <svg class="w-3.5 h-3.5 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>91575 79600</span>
+                    </a>
+                    <button type="button" onclick="openTrialModal()" class="px-3.5 py-2 rounded-md bg-terracotta hover:bg-terracotta-hover text-white text-xs font-semibold transition-crisp whitespace-nowrap">
+                        Book 2-Day Demo
+                    </button>
+                </div>
+
+                <!-- Right: Mobile & Tablet Controls (< 1024px or inside 390px Simulator) -->
+                <div class="mobile-nav-group flex lg:hidden items-center gap-2 shrink-0">
+                    <a href="tel:+919157579600"
+                       class="px-2.5 py-2 rounded-md border border-paper-hairline bg-white hover:bg-paper-warm text-ink font-mono text-xs font-semibold tabular-nums inline-flex items-center gap-1.5 whitespace-nowrap"
+                       aria-label="Call Tutor 9157579600">
+                        <svg class="w-3.5 h-3.5 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>Call</span>
+                    </a>
+                    <button id="mobile-menu-btn"
+                            type="button"
+                            onclick="toggleMobileNav()"
+                            aria-expanded="false"
+                            aria-controls="mobile-nav"
+                            aria-label="Toggle navigation menu"
+                            class="w-10 h-10 rounded-md border border-paper-hairline bg-paper-warm text-ink inline-flex items-center justify-center hover:bg-paper-deep focus:outline-none transition-crisp">
+                        <svg id="menu-icon-open" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+                        <svg id="menu-icon-close" class="w-5 h-5 hidden text-terracotta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Slide-Down Navigation Drawer -->
+            <div id="mobile-nav" class="hidden border-t border-paper-border bg-paper shadow-lg">
+                <div class="max-w-6xl mx-auto px-4 pt-3 pb-5 space-y-3">
+                    <!-- Quick Batch & Address Strip inside Mobile Drawer -->
+                    <div class="p-3 rounded-md bg-paper-warm border border-paper-border flex items-center justify-between gap-2 text-xs">
+                        <div>
+                            <span class="font-mono text-[10px] uppercase text-terracotta font-semibold block">Daily 1.5-Hr Batches</span>
+                            <span class="font-mono font-semibold text-ink tabular-nums">3:00 PM – 7:00 PM (Mon–Sat)</span>
+                        </div>
+                        <span class="font-mono text-[10px] px-2 py-1 rounded bg-white border border-paper-hairline text-ink shrink-0">
+                            Flat 704 · Near Balaji Mandir
+                        </span>
+                    </div>
+
+                    <!-- Touch-Friendly Navigation Links -->
+                    <nav class="divide-y divide-paper-border/70 text-sm font-medium text-ink" aria-label="Mobile Navigation">
+                        <a href="#system" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>1. 3-Step Method (Level Check &amp; Demo)</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                        <a href="#routine" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>2. Daily 90-Minute Class Routine</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                        <a href="#curriculum" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>3. Classes &amp; Syllabus (Jr. KG – Std. 8)</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                        <a href="#batches" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>4. Batch Timings &amp; Slot Configurator</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                        <a href="#tutor" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>5. About Tutor (B.Com · Ex-VV Tutorials)</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                        <a href="#location" onclick="closeMobileNav()" class="flex items-center justify-between py-3 hover:text-terracotta">
+                            <span>6. Location (Shree Hari Darshan Residency)</span>
+                            <span class="font-mono text-xs text-ink-muted">&rarr;</span>
+                        </a>
+                    </nav>
+
+                    <!-- Direct Call & WhatsApp CTA Buttons inside Drawer -->
+                    <div class="pt-2 grid grid-cols-2 gap-2.5">
+                        <a href="tel:+919157579600"
+                           class="touch-target px-3 py-2.5 rounded-md border border-paper-hairline bg-white text-ink font-mono text-xs font-semibold tabular-nums flex items-center justify-center gap-1.5">
+                            <svg class="w-4 h-4 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <span>91575 79600</span>
+                        </a>
+                        <button type="button" onclick="closeMobileNav(); openTrialModal();"
+                                class="touch-target px-3 py-2.5 rounded-md bg-terracotta text-white text-xs font-semibold flex items-center justify-center gap-1.5">
+                            <span>Book 2-Day Demo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- HERO SECTION: Asymmetric 7/5 Split with Interactive Diagnostic & Report Card Artifact -->
+        <section class="relative border-b border-paper-border py-8 sm:py-14 lg:py-20">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="sim-stack grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+                    
+                    <!-- Left Column (7 cols): Honest Editorial Pitch -->
+                    <div class="sim-col-span-full lg:col-span-7 space-y-5 sm:space-y-6">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded border border-paper-hairline bg-paper-warm text-[11px] sm:text-xs text-ink-secondary">
+                            <svg class="w-3.5 h-3.5 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Flat 704, Shree Hari Darshan Residency, Near Balaji Mandir · Offline &amp; Online</span>
+                        </div>
+
+                        <h1 class="hero-heading font-serif font-normal text-ink tracking-tight">
+                            Patient, small-group home tuition for <span class="italic text-terracotta">Jr. KG, Sr. KG &amp; Std. 1st to 8th.</span>
+                        </h1>
+
+                        <p class="text-ink-secondary text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl">
+                            Most children fall behind not because they lack ability, but because large batches move too fast and parents only hear complaints at exam time. Before admission, we take a calm <strong class="text-ink font-semibold">Baseline Level Assessment</strong> so your child is taught from their true starting point—protecting them from parents' taunts or unfair comparison.
+                        </p>
+
+                        <!-- Primary Action Row -->
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+                            <button type="button" onclick="openTrialModal()" class="touch-target px-5 sm:px-6 py-3.5 rounded-md bg-terracotta hover:bg-terracotta-hover text-white font-semibold text-sm inline-flex items-center justify-center gap-2.5 transition-crisp">
+                                <span>Schedule Level Check &amp; 2-Day Free Demo</span>
+                                <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </button>
+                            <a href="#batches" class="touch-target px-5 py-3.5 rounded-md border border-paper-hairline bg-white hover:bg-paper-warm text-ink font-semibold text-sm inline-flex items-center justify-center gap-2 transition-crisp">
+                                <span>Configure 1.5-Hr Batch Slot</span>
+                            </a>
+                        </div>
+
+                        <!-- Concrete Operational Ledger Strip -->
+                        <div class="pt-5 sm:pt-6 border-t border-paper-border grid grid-cols-2 sm:grid-cols-4 gap-3.5 sm:gap-4">
+                            <div class="p-2.5 sm:p-0 rounded bg-paper-warm/60 sm:bg-transparent border border-paper-border sm:border-0">
+                                <div class="font-mono text-[10px] sm:text-xs uppercase text-ink-muted">Daily Duration</div>
+                                <div class="font-mono text-base sm:text-lg font-semibold text-ink tabular-nums mt-0.5">1.5 Hours</div>
+                                <div class="text-[11px] sm:text-xs text-ink-secondary">Between 3 PM – 7 PM</div>
+                            </div>
+                            <div class="p-2.5 sm:p-0 rounded bg-paper-warm/60 sm:bg-transparent border border-paper-border sm:border-0">
+                                <div class="font-mono text-[10px] sm:text-xs uppercase text-ink-muted">Trial Period</div>
+                                <div class="font-mono text-base sm:text-lg font-semibold text-ink tabular-nums mt-0.5">2 Days Free</div>
+                                <div class="text-[11px] sm:text-xs text-ink-secondary">After level assessment</div>
+                            </div>
+                            <div class="p-2.5 sm:p-0 rounded bg-paper-warm/60 sm:bg-transparent border border-paper-border sm:border-0">
+                                <div class="font-mono text-[10px] sm:text-xs uppercase text-ink-muted">Subjects</div>
+                                <div class="font-mono text-base sm:text-lg font-semibold text-ink tabular-nums mt-0.5">All Subjects</div>
+                                <div class="text-[11px] sm:text-xs text-ink-secondary">Homework + Syllabus</div>
+                            </div>
+                            <div class="p-2.5 sm:p-0 rounded bg-paper-warm/60 sm:bg-transparent border border-paper-border sm:border-0">
+                                <div class="font-mono text-[10px] sm:text-xs uppercase text-ink-muted">Weekly Test</div>
+                                <div class="font-mono text-base sm:text-lg font-semibold text-forest tabular-nums mt-0.5">Every Sat</div>
+                                <div class="text-[11px] sm:text-xs text-ink-secondary">Sent to Parent's Phone</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column (5 cols): Interactive Parent Proof Artifact -->
+                    <div class="sim-col-span-full lg:col-span-5 w-full">
+                        <div class="bg-paper-warm border border-paper-hairline rounded-lg p-3.5 sm:p-5">
+                            <!-- Artifact Header & Mode Switcher -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3.5 mb-3.5 border-b border-paper-border">
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-ink-muted block">Interactive Proof</span>
+                                    <h2 class="text-xs sm:text-sm font-semibold text-ink">Tap to Preview Parent Reports</h2>
+                                </div>
+                                <div class="inline-flex rounded-md border border-paper-hairline bg-paper p-0.5 text-xs">
+                                    <button type="button" id="tab-btn-baseline" onclick="switchArtifact('baseline')" class="px-2.5 py-1.5 rounded font-medium bg-ink text-paper transition-crisp">
+                                        1. Level Check
+                                    </button>
+                                    <button type="button" id="tab-btn-saturday" onclick="switchArtifact('saturday')" class="px-2.5 py-1.5 rounded font-medium text-ink-secondary hover:text-ink transition-crisp">
+                                        2. Sat WhatsApp
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- VIEW 1: Pre-Admission Baseline Diagnostic Sheet -->
+                            <div id="artifact-baseline" class="notebook-paper border border-paper-border rounded p-3.5 sm:p-5 space-y-3.5">
+                                <div class="flex items-start justify-between gap-2 border-b border-paper-border pb-3">
+                                    <div>
+                                        <span class="font-mono text-[10px] uppercase tracking-wider text-terracotta font-semibold">Pre-Admission Assessment</span>
+                                        <h3 class="font-serif text-base sm:text-lg font-medium text-ink">Child Level Check Sheet</h3>
+                                        <p class="text-[11px] sm:text-xs text-ink-secondary">Prevents unfair scolding &amp; sets true baseline</p>
+                                    </div>
+                                    <span class="font-mono text-[10px] sm:text-[11px] bg-paper-warm border border-paper-border px-2 py-0.5 rounded text-ink tabular-nums shrink-0">
+                                        Before Day 1
+                                    </span>
+                                </div>
+
+                                <div class="space-y-2 text-xs">
+                                    <div class="p-2.5 rounded bg-paper border border-paper-border flex items-center justify-between gap-2">
+                                        <div class="min-w-0">
+                                            <span class="font-semibold text-ink block">English Reading &amp; Phonics</span>
+                                            <span class="text-ink-secondary text-[11px] block">Reads 3-letter words; needs blend practice</span>
+                                        </div>
+                                        <span class="font-mono text-[10px] font-medium text-ink bg-white px-2 py-0.5 rounded border border-paper-border shrink-0">Checked</span>
+                                    </div>
+
+                                    <div class="p-2.5 rounded bg-paper border border-paper-border flex items-center justify-between gap-2">
+                                        <div class="min-w-0">
+                                            <span class="font-semibold text-ink block">Numbers &amp; Carry-Over Maths</span>
+                                            <span class="text-ink-secondary text-[11px] block">Addition clear; tables 6–9 need oral drill</span>
+                                        </div>
+                                        <span class="font-mono text-[10px] font-medium text-forest bg-forest-tint px-2 py-0.5 rounded border border-forest-border shrink-0">On Track</span>
+                                    </div>
+
+                                    <div class="p-2.5 rounded bg-paper border border-paper-border flex items-center justify-between gap-2">
+                                        <div class="min-w-0">
+                                            <span class="font-semibold text-ink block">Writing Neatness &amp; Speed</span>
+                                            <span class="text-ink-secondary text-[11px] block">Good grip; slow copying from board</span>
+                                        </div>
+                                        <span class="font-mono text-[10px] font-medium text-terracotta bg-terracotta-tint px-2 py-0.5 rounded border border-terracotta-border shrink-0">Focus Area</span>
+                                    </div>
+                                </div>
+
+                                <div class="p-2.5 sm:p-3 rounded bg-paper-warm border border-paper-border text-[11px] sm:text-xs text-ink-secondary leading-relaxed">
+                                    <strong class="text-ink font-semibold block mb-0.5">Why we take this test first:</strong>
+                                    When parents know their child's exact starting level, the child is protected from taunts at home while we patiently rebuild their basics.
+                                </div>
+                            </div>
+
+                            <!-- VIEW 2: Saturday WhatsApp Parent Report Card -->
+                            <div id="artifact-saturday" class="hidden notebook-paper border border-paper-border rounded p-3.5 sm:p-5 space-y-3.5">
+                                <div class="flex items-start justify-between gap-2 border-b border-paper-border pb-3">
+                                    <div>
+                                        <span class="font-mono text-[10px] uppercase tracking-wider text-forest font-semibold">Every Saturday · On Parent's Phone</span>
+                                        <h3 class="font-serif text-base sm:text-lg font-medium text-ink">Weekly Test Report on WhatsApp</h3>
+                                        <p class="text-[11px] sm:text-xs text-ink-secondary">Checked paper photo + level update sent directly</p>
+                                    </div>
+                                    <span class="font-mono text-xs font-semibold bg-forest-tint text-forest border border-forest-border px-2 py-0.5 rounded tabular-nums shrink-0">
+                                        18 / 20
+                                    </span>
+                                </div>
+
+                                <!-- Simulated WhatsApp Dispatch Box -->
+                                <div class="bg-forest-tint/60 border border-forest-border rounded p-3 space-y-2 text-xs">
+                                    <div class="flex items-center justify-between font-mono text-[10px] text-forest">
+                                        <span>FROM: +91 91575 79600</span>
+                                        <span>SATURDAY TEST</span>
+                                    </div>
+                                    <p class="text-ink text-[11px] sm:text-xs leading-relaxed">
+                                        "Namaste. Attached is your child's checked Saturday test paper for <strong>Maths &amp; English Grammar</strong>. Score: <strong class="font-mono">18/20</strong>. Reading speed and tables have improved this week."
+                                    </p>
+                                    <div class="pt-1 flex items-center gap-1.5 text-[10px] font-mono text-ink-secondary">
+                                        <svg class="w-3.5 h-3.5 text-forest shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                                        <span class="truncate">Checked_Saturday_Paper.jpg</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-2 text-center font-mono text-xs tabular-nums">
+                                    <div class="p-2 rounded bg-paper border border-paper-border">
+                                        <span class="text-[9px] text-ink-muted block">HOMEWORK</span>
+                                        <span class="font-semibold text-ink text-[11px]">6/6 Days</span>
+                                    </div>
+                                    <div class="p-2 rounded bg-paper border border-paper-border">
+                                        <span class="text-[9px] text-ink-muted block">TEST LEVEL</span>
+                                        <span class="font-semibold text-forest text-[11px]">Upgraded</span>
+                                    </div>
+                                    <div class="p-2 rounded bg-paper border border-paper-border">
+                                        <span class="text-[9px] text-ink-muted block">PARENT MSG</span>
+                                        <span class="font-semibold text-ink text-[11px]">Delivered</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Bottom Artifact Caption -->
+                            <div class="mt-3.5 flex items-center justify-between text-xs text-ink-secondary">
+                                <span>Check your child's level first:</span>
+                                <button type="button" onclick="openTrialModal()" class="font-semibold text-terracotta hover:underline">Book Free 2-Day Demo &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: The 3-Step Protection & Progress System -->
+        <section id="system" class="py-14 sm:py-20 border-b border-paper-border">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="max-w-2xl mb-10 sm:mb-12">
+                    <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">How We Work</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                        A clear system that protects children from blame and keeps parents informed.
+                    </h2>
+                    <p class="text-ink-secondary text-sm sm:text-base mt-3 leading-relaxed">
+                        Many children hesitate to ask doubts in school or large coaching classes. When marks drop, parents naturally worry and scold the child. We replace guesswork with three simple rules.
+                    </p>
+                </div>
+
+                <div class="sim-stack grid md:grid-cols-3 gap-6">
+                    <!-- Step 01 -->
+                    <div class="bg-paper-warm border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="font-mono text-xs font-semibold px-2.5 py-1 rounded bg-paper border border-paper-hairline text-ink tabular-nums">STEP 01 · BEFORE ADMISSION</span>
+                                <svg class="w-5 h-5 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2.5">Baseline Level Check</h3>
+                            <p class="text-sm text-ink-secondary leading-relaxed">
+                                Before starting tuition, we conduct a calm, one-on-one diagnostic check in reading, handwriting, and basic maths. This shows us—and you—the child's exact current level so they are never compared unfairly or scolded for older gaps.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between text-xs font-mono text-ink-secondary">
+                            <span>DURATION: 20 MINS</span>
+                            <span class="text-ink font-semibold">NO FEE</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 02 -->
+                    <div class="bg-paper-warm border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="font-mono text-xs font-semibold px-2.5 py-1 rounded bg-paper border border-paper-hairline text-ink tabular-nums">STEP 02 · FIRST TWO DAYS</span>
+                                <svg class="w-5 h-5 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2.5">2-Day Free Demo Classes</h3>
+                            <p class="text-sm text-ink-secondary leading-relaxed">
+                                Your child attends two full 1.5-hour sessions with their batch at zero cost. Observe how comfortably they ask questions, complete their school diary homework, and settle into the environment before you decide on admission.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between text-xs font-mono text-ink-secondary">
+                            <span>2 × 1.5 HR SESSIONS</span>
+                            <span class="text-ink font-semibold">ZERO OBLIGATION</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 03 -->
+                    <div class="bg-paper-warm border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <span class="font-mono text-xs font-semibold px-2.5 py-1 rounded bg-forest-tint border border-forest-border text-forest tabular-nums">STEP 03 · EVERY SATURDAY</span>
+                                <svg class="w-5 h-5 text-forest shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2.5">Weekly Test on Parent's Phone</h3>
+                            <p class="text-sm text-ink-secondary leading-relaxed">
+                                Every Saturday is test day on everything taught Monday through Friday. We check the paper and send a clear photo of the answer sheet, marks, and specific remarks straight to your WhatsApp number.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between text-xs font-mono text-ink-secondary">
+                            <span>FREQUENCY: WEEKLY</span>
+                            <span class="text-forest font-semibold">DIRECT WHATSAPP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: Inside the Daily 90-Minute (1.5 Hr) Session -->
+        <section id="routine" class="py-14 sm:py-20 bg-paper-warm border-b border-paper-border">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="sim-stack grid lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-10">
+                    <div class="sim-col-span-full lg:col-span-7">
+                        <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Daily Structure</span>
+                        <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                            How every 90-minute (1.5 hour) batch is used.
+                        </h2>
+                    </div>
+                    <div class="sim-col-span-full lg:col-span-5 text-sm text-ink-secondary">
+                        Unstructured tuition wastes time copying pages without understanding. We divide every 90-minute session into three timed blocks so school homework and core learning both finish on time.
+                    </div>
+                </div>
+
+                <!-- Architectural Time Bar -->
+                <div class="bg-paper border border-paper-hairline rounded-lg overflow-hidden">
+                    <div class="sim-stack grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-paper-border">
+                        
+                        <!-- Block 1: 40 Mins -->
+                        <div class="p-5 sm:p-6 space-y-3">
+                            <div class="flex items-center justify-between font-mono text-xs">
+                                <span class="text-terracotta font-semibold">MINUTES 00 – 40</span>
+                                <span class="px-2 py-0.5 rounded bg-paper-warm border border-paper-border text-ink tabular-nums">40 Mins</span>
+                            </div>
+                            <h3 class="font-serif text-xl text-ink">School Diary &amp; Daily Homework</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+                                We check the school almanac first. All daily school homework, workbook exercises, and classwork gaps are completed neatly so parents don't have to sit with notebooks late at night.
+                            </p>
+                        </div>
+
+                        <!-- Block 2: 30 Mins -->
+                        <div class="p-5 sm:p-6 space-y-3">
+                            <div class="flex items-center justify-between font-mono text-xs">
+                                <span class="text-terracotta font-semibold">MINUTES 40 – 70</span>
+                                <span class="px-2 py-0.5 rounded bg-paper-warm border border-paper-border text-ink tabular-nums">30 Mins</span>
+                            </div>
+                            <h3 class="font-serif text-xl text-ink">Concept Teaching &amp; Written Practice</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+                                Focused chapter explanation in Maths, Science/EVS, or English Grammar. Children solve practice sums and write answers independently while the tutor checks step-by-step logic.
+                            </p>
+                        </div>
+
+                        <!-- Block 3: 20 Mins -->
+                        <div class="p-5 sm:p-6 space-y-3">
+                            <div class="flex items-center justify-between font-mono text-xs">
+                                <span class="text-terracotta font-semibold">MINUTES 70 – 90</span>
+                                <span class="px-2 py-0.5 rounded bg-paper-warm border border-paper-border text-ink tabular-nums">20 Mins</span>
+                            </div>
+                            <h3 class="font-serif text-xl text-ink">Oral Tables, Reading &amp; Dictation</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary leading-relaxed">
+                                The final 20 minutes are dedicated to loud reading (English/Hindi), spelling dictation, and multiplication tables so retention stays strong for Saturday's written test.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Grades & All-Subjects Curriculum Explorer -->
+        <section id="curriculum" class="py-14 sm:py-20 border-b border-paper-border">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4">
+                    <div>
+                        <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Complete Syllabus Coverage</span>
+                        <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                            Jr. KG, Sr. KG &amp; Std. 1st to 8th (All Subjects)
+                        </h2>
+                    </div>
+                    <!-- Touch-Friendly Grade Group Filter Pills -->
+                    <div class="flex flex-wrap rounded-md border border-paper-hairline bg-paper-warm p-1 text-xs font-medium self-start gap-1">
+                        <button type="button" onclick="filterGradeTab('all')" id="grade-tab-all" class="grade-tab px-3 py-2 rounded bg-ink text-paper transition-crisp">All Classes</button>
+                        <button type="button" onclick="filterGradeTab('kg')" id="grade-tab-kg" class="grade-tab px-3 py-2 rounded text-ink-secondary hover:text-ink transition-crisp">Jr. &amp; Sr. KG</button>
+                        <button type="button" onclick="filterGradeTab('primary')" id="grade-tab-primary" class="grade-tab px-3 py-2 rounded text-ink-secondary hover:text-ink transition-crisp">Std. 1 – 5</button>
+                        <button type="button" onclick="filterGradeTab('middle')" id="grade-tab-middle" class="grade-tab px-3 py-2 rounded text-ink-secondary hover:text-ink transition-crisp">Std. 6 – 8</button>
+                    </div>
+                </div>
+
+                <div class="sim-stack grid md:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1: Jr. KG & Sr. KG -->
+                    <div data-grade-group="kg" class="curriculum-card bg-white border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between transition-crisp">
+                        <div>
+                            <div class="flex items-center justify-between pb-4 mb-4 border-b border-paper-border">
+                                <span class="font-mono text-xs uppercase font-semibold text-terracotta">Early Years</span>
+                                <span class="font-mono text-xs text-ink-muted tabular-nums">Jr. KG &amp; Sr. KG</span>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2">Kindergarten Foundation</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary mb-5 leading-relaxed">
+                                Gentle, patient hand-holding to build pencil control, phonics sound blending, and early number confidence before Class 1.
+                            </p>
+
+                            <ul class="space-y-2.5 text-xs sm:text-sm text-ink">
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">01</span>
+                                    <span><strong>Phonics &amp; Sight Words:</strong> A–Z letter sounds, 2- and 3-letter blending, reading short sentences aloud.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">02</span>
+                                    <span><strong>Grip &amp; 4-Line Writing:</strong> Proper pencil posture, capital/small strokes, and neatness in four-line books.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">03</span>
+                                    <span><strong>Number Work:</strong> Counting 1–100, missing numbers, before/after, and single-digit picture addition.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">04</span>
+                                    <span><strong>Hindi Swar &amp; Oral:</strong> Basic Varnamala recognition, rhymes, and daily school worksheet support.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between">
+                            <span class="font-mono text-xs text-ink-secondary">1.5 Hr Daily · All Subjects</span>
+                            <button type="button" onclick="openTrialModal('Jr. KG / Sr. KG')" class="text-xs font-semibold text-terracotta hover:underline py-1">
+                                Book KG Level Check &rarr;
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Std 1st to 5th -->
+                    <div data-grade-group="primary" class="curriculum-card bg-white border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between transition-crisp">
+                        <div>
+                            <div class="flex items-center justify-between pb-4 mb-4 border-b border-paper-border">
+                                <span class="font-mono text-xs uppercase font-semibold text-terracotta">Primary School</span>
+                                <span class="font-mono text-xs text-ink-muted">Std. 1st to 5th</span>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2">Std. 1 – 5 (All Subjects)</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary mb-5 leading-relaxed">
+                                Complete daily school homework completion paired with foundational grammar, multiplication tables, and chapter question-answers.
+                            </p>
+
+                            <ul class="space-y-2.5 text-xs sm:text-sm text-ink">
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">01</span>
+                                    <span><strong>Mathematics:</strong> Tables 2–20, addition/subtraction with carry, multiplication, division, and word problems.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">02</span>
+                                    <span><strong>English Text &amp; Grammar:</strong> Reading fluency, nouns, verbs, tenses, and neat notebook Q&amp;A writing.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">03</span>
+                                    <span><strong>EVS &amp; General Science:</strong> Chapter explanation, spelling drills, and diagram labelling without rote mugging.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">04</span>
+                                    <span><strong>Hindi &amp; Regional:</strong> Matra correction, dictation drills, and daily school diary homework completion.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between">
+                            <span class="font-mono text-xs text-ink-secondary">Homework + Sat Test</span>
+                            <button type="button" onclick="openTrialModal('Standard 1st to 5th')" class="text-xs font-semibold text-terracotta hover:underline py-1">
+                                Book Std 1–5 Check &rarr;
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Std 6th to 8th -->
+                    <div data-grade-group="middle" class="curriculum-card bg-white border border-paper-border rounded-lg p-5 sm:p-6 flex flex-col justify-between transition-crisp">
+                        <div>
+                            <div class="flex items-center justify-between pb-4 mb-4 border-b border-paper-border">
+                                <span class="font-mono text-xs uppercase font-semibold text-terracotta">Middle School</span>
+                                <span class="font-mono text-xs text-ink-muted">Std. 6th to 8th</span>
+                            </div>
+                            <h3 class="font-serif text-2xl text-ink mb-2">Std. 6 – 8 (All Subjects)</h3>
+                            <p class="text-xs sm:text-sm text-ink-secondary mb-5 leading-relaxed">
+                                Rigorous concept building in Fractions, Algebra, Geometry, Science, and Social Studies with weekly written Saturday tests.
+                            </p>
+
+                            <ul class="space-y-2.5 text-xs sm:text-sm text-ink">
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">01</span>
+                                    <span><strong>Mathematics:</strong> Fractions, decimals, ratios, algebraic expressions, linear equations, and geometry.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">02</span>
+                                    <span><strong>Science:</strong> Physics, Chemistry, and Biology concepts, diagrams, and structured exam answer writing.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">03</span>
+                                    <span><strong>Social Studies (Hist/Civ/Geo):</strong> Point-wise long answer framing, chapter notes, and map work.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="font-mono text-terracotta font-bold">04</span>
+                                    <span><strong>English &amp; Hindi Grammar:</strong> Active/passive voice, direct/indirect speech, formal letters, and essays.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-6 pt-4 border-t border-paper-border flex items-center justify-between">
+                            <span class="font-mono text-xs text-ink-secondary">Written Saturday Exams</span>
+                            <button type="button" onclick="openTrialModal('Standard 6th to 8th')" class="text-xs font-semibold text-terracotta hover:underline py-1">
+                                Book Std 6–8 Check &rarr;
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Interactive Batch Schedule & Slot Configurator (3:00 PM to 7:00 PM) -->
+        <section id="batches" class="py-14 sm:py-20 bg-paper-warm border-b border-paper-border">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="max-w-2xl mb-8 sm:mb-10">
+                    <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Interactive Batch Planner</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                        1.5-Hour Daily Batches (3:00 PM – 7:00 PM)
+                    </h2>
+                    <p class="text-ink-secondary text-sm sm:text-base mt-2">
+                        Tap your child's grade group, preferred 1.5-hour slot, and mode below. Your selection updates the syllabus card and prepares a direct WhatsApp message to <span class="font-mono text-ink font-semibold">91575 79600</span>.
+                    </p>
+                </div>
+
+                <div class="sim-stack grid lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                    
+                    <!-- Left 7 Cols: Touch-Friendly Pill Selectors -->
+                    <div class="sim-col-span-full lg:col-span-7 bg-paper border border-paper-hairline rounded-lg p-4 sm:p-6 space-y-6">
+                        
+                        <!-- Step 1: Select Grade Pill (`Jr. KG / Sr. KG`, `Std. 1 – 5`, `Std. 6 – 8`) -->
+                        <div>
+                            <label class="block font-mono text-xs uppercase text-ink-secondary mb-2.5">1. Select Child's Grade Group</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                                <button type="button"
+                                        onclick="selectLedgerGrade('kg', 'Jr. KG / Sr. KG', 'Phonics, 4-Line Writing, Numbers 1–100 & Oral Confidence')"
+                                        id="ledger-grade-kg"
+                                        class="ledger-grade-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-ink-muted block">Early Years</span>
+                                    <span class="font-semibold text-sm text-ink block mt-0.5">Jr. KG / Sr. KG</span>
+                                </button>
+                                <button type="button"
+                                        onclick="selectLedgerGrade('std1_5', 'Std. 1 – 5', 'All Subjects + Daily School Diary Homework, Tables & Reading')"
+                                        id="ledger-grade-std1_5"
+                                        class="ledger-grade-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-terracotta font-semibold block">Primary School</span>
+                                    <span class="font-semibold text-sm text-ink block mt-0.5">Std. 1 – 5</span>
+                                </button>
+                                <button type="button"
+                                        onclick="selectLedgerGrade('std6_8', 'Std. 6 – 8', 'All Subjects + Fractions, Algebra, Science & Answer Writing')"
+                                        id="ledger-grade-std6_8"
+                                        class="ledger-grade-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-ink-muted block">Middle School</span>
+                                    <span class="font-semibold text-sm text-ink block mt-0.5">Std. 6 – 8</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Select 1.5-Hour Batch Slot (3 PM to 7 PM) -->
+                        <div>
+                            <label class="block font-mono text-xs uppercase text-ink-secondary mb-2.5">2. Select 1.5-Hour Daily Slot (Between 3:00 PM &amp; 7:00 PM)</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                                <button type="button"
+                                        onclick="selectLedgerSlot('Batch A: 3:00–4:30 PM')"
+                                        id="ledger-slot-a"
+                                        class="ledger-slot-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-ink-muted block">BATCH A · 1.5 HRS</span>
+                                    <span class="font-mono text-sm font-semibold text-ink tabular-nums block mt-0.5">3:00 – 4:30 PM</span>
+                                    <span class="text-[11px] text-ink-secondary block mt-1">Afternoon Slot</span>
+                                </button>
+                                <button type="button"
+                                        onclick="selectLedgerSlot('Batch B: 4:30–6:00 PM')"
+                                        id="ledger-slot-b"
+                                        class="ledger-slot-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-terracotta font-semibold block">BATCH B · 1.5 HRS</span>
+                                    <span class="font-mono text-sm font-semibold text-ink tabular-nums block mt-0.5">4:30 – 6:00 PM</span>
+                                    <span class="text-[11px] text-ink-secondary block mt-1">Evening Slot</span>
+                                </button>
+                                <button type="button"
+                                        onclick="selectLedgerSlot('Batch C: 5:30–7:00 PM')"
+                                        id="ledger-slot-c"
+                                        class="ledger-slot-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp">
+                                    <span class="font-mono text-[10px] uppercase text-ink-muted block">BATCH C · 1.5 HRS</span>
+                                    <span class="font-mono text-sm font-semibold text-ink tabular-nums block mt-0.5">5:30 – 7:00 PM</span>
+                                    <span class="text-[11px] text-ink-secondary block mt-1">Late Evening Slot</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Select Mode (`Offline at Flat 704` or `Online Live`) -->
+                        <div>
+                            <label class="block font-mono text-xs uppercase text-ink-secondary mb-2.5">3. Select Teaching Mode</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                                <button type="button"
+                                        onclick="selectLedgerMode('Offline at Flat 704')"
+                                        id="ledger-mode-offline"
+                                        class="ledger-mode-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left flex items-center justify-between gap-2 transition-crisp">
+                                    <div>
+                                        <span class="font-semibold text-sm text-ink block">Offline at Flat 704</span>
+                                        <span class="text-xs text-ink-secondary">Shree Hari Darshan Residency</span>
+                                    </div>
+                                    <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-white border border-paper-border text-ink shrink-0">In-Person</span>
+                                </button>
+                                <button type="button"
+                                        onclick="selectLedgerMode('Online Live')"
+                                        id="ledger-mode-online"
+                                        class="ledger-mode-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left flex items-center justify-between gap-2 transition-crisp">
+                                    <div>
+                                        <span class="font-semibold text-sm text-ink block">Online Live</span>
+                                        <span class="text-xs text-ink-secondary">1.5 hr live video + WhatsApp check</span>
+                                    </div>
+                                    <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-paper-warm border border-paper-border text-ink shrink-0">Remote</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right 5 Cols: Live Configured Enrollment Summary Ledger -->
+                    <div class="sim-col-span-full lg:col-span-5 bg-white border border-paper-hairline rounded-lg p-5 sm:p-6 space-y-5 w-full">
+                        <div class="flex items-center justify-between border-b border-paper-border pb-3.5 gap-2">
+                            <div>
+                                <span class="font-mono text-[10px] uppercase tracking-wider text-ink-muted block">Configured Batch Card</span>
+                                <h3 id="summary-grade-title" class="font-serif text-2xl text-ink">Std. 1 – 5</h3>
+                            </div>
+                            <span class="font-mono text-[11px] px-2.5 py-1 rounded bg-forest-tint text-forest border border-forest-border font-medium shrink-0">
+                                All Subjects
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs font-mono tabular-nums">
+                            <div class="flex items-start justify-between gap-4 py-1.5 border-b border-paper-border/70">
+                                <span class="text-ink-muted shrink-0">SYLLABUS</span>
+                                <span id="summary-scope" class="text-ink font-sans font-medium text-right">All Subjects + Daily School Diary Homework, Tables &amp; Reading</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 py-1.5 border-b border-paper-border/70">
+                                <span class="text-ink-muted">1.5-HR SLOT</span>
+                                <span id="summary-slot" class="text-ink font-semibold text-right">Batch B: 4:30–6:00 PM</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 py-1.5 border-b border-paper-border/70">
+                                <span class="text-ink-muted">CLASS MODE</span>
+                                <span id="summary-mode" class="text-ink font-sans font-semibold text-right">Offline at Flat 704</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 py-1.5 border-b border-paper-border/70">
+                                <span class="text-ink-muted">ADMISSION STEP</span>
+                                <span class="text-terracotta font-semibold text-right">Level Assessment + 2-Day Free Demo</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 py-1.5">
+                                <span class="text-ink-muted">WEEKLY TEST</span>
+                                <span class="text-forest font-semibold text-right">Saturday Report on Parent's Phone</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 space-y-2.5">
+                            <button type="button" onclick="sendConfiguredWhatsApp()" class="touch-target w-full py-3.5 px-4 rounded-md bg-terracotta hover:bg-terracotta-hover text-white font-semibold text-xs sm:text-sm inline-flex items-center justify-center gap-2 transition-crisp">
+                                <span>Book 2-Day Demo for This Batch on WhatsApp</span>
+                                <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </button>
+                            <p class="text-[11px] text-center text-ink-muted font-mono">
+                                Sends details directly to +91 91575 79600
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: About the Tutor (Grounded Profile) -->
+        <section id="tutor" class="py-14 sm:py-20 border-b border-paper-border">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="bg-paper-warm border border-paper-hairline rounded-lg p-5 sm:p-10">
+                    <div class="sim-stack grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        
+                        <!-- Left 4 Cols: Structured Educator Ledger Card -->
+                        <div class="sim-col-span-full lg:col-span-4">
+                            <div class="bg-white border border-paper-border rounded-lg p-5 sm:p-6 space-y-5">
+                                <div class="flex items-center gap-3.5">
+                                    <div class="w-12 h-12 rounded-lg bg-ink text-paper flex items-center justify-center font-serif text-2xl shrink-0">
+                                        T
+                                    </div>
+                                    <div>
+                                        <span class="font-mono text-[10px] uppercase tracking-wider text-terracotta font-semibold block">Lead Tutor &amp; Founder</span>
+                                        <h3 class="font-serif text-xl text-ink">Home Educator</h3>
+                                        <p class="text-xs text-ink-secondary">B.Com (2nd Year) · Teaching Since Std. 11</p>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-2.5 pt-3 border-t border-paper-border text-xs font-mono">
+                                    <div class="flex justify-between py-1 border-b border-paper-border/60">
+                                        <span class="text-ink-muted">STARTED TEACHING</span>
+                                        <span class="text-ink font-medium">Since 11th Standard</span>
+                                    </div>
+                                    <div class="flex justify-between py-1 border-b border-paper-border/60">
+                                        <span class="text-ink-muted">FORMER COACHING EXP.</span>
+                                        <span class="text-ink font-medium">VV Tutorials</span>
+                                    </div>
+                                    <div class="flex justify-between py-1 border-b border-paper-border/60">
+                                        <span class="text-ink-muted">CURRENT FOCUS</span>
+                                        <span class="text-ink font-medium">Small-Batch Home Tuition</span>
+                                    </div>
+                                    <div class="flex justify-between py-1">
+                                        <span class="text-ink-muted">CLASSES TAUGHT</span>
+                                        <span class="text-ink font-medium">Jr./Sr. KG &amp; Std. 1–8</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right 8 Cols: First-Person Tutor Statement -->
+                        <div class="sim-col-span-full lg:col-span-8 space-y-4">
+                            <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Meet Your Child's Teacher</span>
+                            <h2 class="font-serif text-3xl sm:text-4xl text-ink">
+                                Why I shifted from coaching institutes to focused home tuition.
+                            </h2>
+                            <p class="text-ink-secondary text-sm sm:text-base leading-relaxed">
+                                "I am currently in my <strong class="text-ink font-semibold">2nd year of B.Com</strong> and have been teaching students continuously since I was in the <strong class="text-ink font-semibold">11th standard</strong>. I began my teaching journey at <strong class="text-ink font-semibold">VV Tutorials</strong>, where I learned how to manage syllabi, prepare test papers, and structure revision before school exams."
+                            </p>
+                            <p class="text-ink-secondary text-sm sm:text-base leading-relaxed">
+                                "However, I noticed that younger children—from Jr. KG up to 8th standard—often freeze up in large coaching rooms. When I shifted to teaching at my own residence in <strong class="text-ink font-semibold">Shree Hari Darshan Residency</strong>, I made three commitments: keep batches small, test every child's starting level before admission so parents don't scold them unnecessarily, and send every Saturday's test paper directly to the parent's phone."
+                            </p>
+
+                            <div class="pt-3 flex flex-wrap items-center gap-4">
+                                <a href="tel:+919157579600" class="px-4 py-2.5 rounded-md bg-ink hover:bg-terracotta text-paper font-mono text-xs font-medium inline-flex items-center gap-2 transition-crisp">
+                                    <svg class="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                    <span>Speak Directly: +91 91575 79600</span>
+                                </a>
+                                <button type="button" onclick="openTrialModal()" class="text-xs font-semibold text-terracotta hover:underline">
+                                    Schedule a visit to Flat 704 &rarr;
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: FAQ Accordion -->
+        <section id="faq" class="py-14 sm:py-20 border-b border-paper-border">
+            <div class="sim-px max-w-4xl mx-auto px-4 sm:px-6">
+                <div class="mb-10">
+                    <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Common Questions</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                        Straight answers for parents.
+                    </h2>
+                </div>
+
+                <div class="divide-y divide-paper-border border-y border-paper-border">
+                    <!-- Q1 -->
+                    <div class="py-4">
+                        <button type="button" onclick="toggleFaqItem(this)" class="w-full flex items-center justify-between text-left py-2 focus:outline-none group">
+                            <span class="font-medium text-sm sm:text-base text-ink group-hover:text-terracotta transition-crisp">Why do you insist on an assessment test before starting tuition?</span>
+                            <span class="font-mono text-lg text-ink-muted ml-4 faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer hidden pt-2 pb-3 text-sm text-ink-secondary leading-relaxed">
+                            Often, a child in 5th standard may still struggle with 3rd-standard carry-over subtraction or English reading. Without a baseline check, parents expect instant marks and scold the child when they struggle. Our 20-minute assessment shows everyone the honest starting point so we can fix root gaps calmly.
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="py-4">
+                        <button type="button" onclick="toggleFaqItem(this)" class="w-full flex items-center justify-between text-left py-2 focus:outline-none group">
+                            <span class="font-medium text-sm sm:text-base text-ink group-hover:text-terracotta transition-crisp">How does the 2-day free demo work?</span>
+                            <span class="font-mono text-lg text-ink-muted ml-4 faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer hidden pt-2 pb-3 text-sm text-ink-secondary leading-relaxed">
+                            After the short baseline check, your child attends two regular 1.5-hour classes with their batch. We help them with their school homework and teach a core topic. You only pay and confirm admission after your child completes both days comfortably.
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="py-4">
+                        <button type="button" onclick="toggleFaqItem(this)" class="w-full flex items-center justify-between text-left py-2 focus:outline-none group">
+                            <span class="font-medium text-sm sm:text-base text-ink group-hover:text-terracotta transition-crisp">What is included in the Saturday WhatsApp test report?</span>
+                            <span class="font-mono text-lg text-ink-muted ml-4 faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer hidden pt-2 pb-3 text-sm text-ink-secondary leading-relaxed">
+                            Every Saturday, students write a test covering the chapters taught that week. After checking the copies, we send a photo of the marked test sheet along with the score and a brief note on what improved and what needs practice directly to your WhatsApp.
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="py-4">
+                        <button type="button" onclick="toggleFaqItem(this)" class="w-full flex items-center justify-between text-left py-2 focus:outline-none group">
+                            <span class="font-medium text-sm sm:text-base text-ink group-hover:text-terracotta transition-crisp">Do you teach both Offline and Online?</span>
+                            <span class="font-mono text-lg text-ink-muted ml-4 faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer hidden pt-2 pb-3 text-sm text-ink-secondary leading-relaxed">
+                            Yes. Most nearby students attend offline at Flat No. 704, Shree Hari Darshan Residency (Near Balaji Mandir). For students who live further away or prefer learning from home, we run structured 1.5-hour online batches during the 3:00 PM – 7:00 PM window with the same Saturday WhatsApp test system.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: Location & Direct Contact Ledger -->
+        <section id="location" class="py-14 sm:py-20 bg-paper-warm">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="sim-stack grid lg:grid-cols-12 gap-8 items-stretch">
+                    
+                    <!-- Address Details Card -->
+                    <div class="sim-col-span-full lg:col-span-7 bg-paper border border-paper-hairline rounded-lg p-5 sm:p-8 flex flex-col justify-between">
+                        <div class="space-y-6">
+                            <div>
+                                <span class="font-mono text-xs uppercase tracking-widest text-terracotta font-semibold">Visit or Call</span>
+                                <h2 class="font-serif text-3xl sm:text-4xl text-ink mt-2">
+                                    Location &amp; Admission Desk
+                                </h2>
+                            </div>
+
+                            <div class="sim-stack grid sm:grid-cols-2 gap-6 pt-2">
+                                <div class="space-y-1.5">
+                                    <span class="font-mono text-[11px] uppercase text-ink-muted block">RESIDENCE ADDRESS</span>
+                                    <p class="font-semibold text-base text-ink">Flat No. 704, 7th Floor</p>
+                                    <p class="text-sm text-ink-secondary">Shree Hari Darshan Residency</p>
+                                    <p class="text-sm text-ink-secondary font-medium">Near Balaji Mandir</p>
+                                </div>
+
+                                <div class="space-y-1.5">
+                                    <span class="font-mono text-[11px] uppercase text-ink-muted block">DIRECT PHONE &amp; WHATSAPP</span>
+                                    <a href="tel:+919157579600" class="font-mono text-xl font-semibold text-ink hover:text-terracotta tabular-nums block transition-crisp">
+                                        +91 91575 79600
+                                    </a>
+                                    <p class="text-xs text-ink-secondary">Call or WhatsApp anytime between 9:00 AM and 8:30 PM</p>
+                                </div>
+                            </div>
+
+                            <div class="p-4 rounded bg-paper-warm border border-paper-border text-xs text-ink-secondary space-y-1">
+                                <strong class="text-ink font-semibold block">Visiting for the Pre-Admission Level Check:</strong>
+                                Please message or call on <span class="font-mono text-ink">9157579600</span> before visiting so we can reserve a quiet 20-minute slot for your child outside active teaching hours.
+                            </div>
+                        </div>
+
+                        <div class="pt-6 mt-6 border-t border-paper-border flex flex-wrap gap-3">
+                            <button type="button" onclick="openTrialModal()" class="touch-target px-5 py-3 rounded-md bg-terracotta hover:bg-terracotta-hover text-white text-xs font-semibold transition-crisp">
+                                Schedule Level Check &amp; 2-Day Demo
+                            </button>
+                            <a href="https://wa.me/919157579600?text=Hello%20Teacher%2C%20please%20share%20the%20exact%20timing%20to%20visit%20Flat%20704%2C%20Shree%20Hari%20Darshan%20Residency%20for%20my%20child%27s%20level%20check."
+                               target="_blank" rel="noopener noreferrer"
+                               class="touch-target px-5 py-3 rounded-md border border-paper-hairline bg-white hover:bg-paper-warm text-ink text-xs font-semibold inline-flex items-center gap-2 transition-crisp">
+                                <span>Message on WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right 5 Cols: Quick Direct Inquiry Card -->
+                    <div class="sim-col-span-full lg:col-span-5 bg-white border border-paper-hairline rounded-lg p-5 sm:p-8">
+                        <span class="font-mono text-[10px] uppercase tracking-wider text-terracotta font-semibold block">Direct Booking</span>
+                        <h3 class="font-serif text-2xl text-ink mt-1 mb-1">Book Baseline Check</h3>
+                        <p class="text-xs text-ink-secondary mb-5">Sends your child's details directly to +91 91575 79600 on WhatsApp.</p>
+
+                        <form onsubmit="submitInlineForm(event)" class="space-y-3.5">
+                            <div>
+                                <label for="inline-name" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Child's Name</label>
+                                <input id="inline-name" type="text" required placeholder="e.g. Riya Sharma" class="w-full px-3 py-2.5 rounded border border-paper-hairline bg-paper text-sm text-ink focus:outline-none focus:border-terracotta">
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label for="inline-grade" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Standard</label>
+                                    <select id="inline-grade" class="w-full px-3 py-2.5 rounded border border-paper-hairline bg-paper text-sm text-ink focus:outline-none focus:border-terracotta">
+                                        <option value="Jr. KG">Jr. KG</option>
+                                        <option value="Sr. KG">Sr. KG</option>
+                                        <option value="Std. 1st">Std. 1st</option>
+                                        <option value="Std. 2nd">Std. 2nd</option>
+                                        <option value="Std. 3rd">Std. 3rd</option>
+                                        <option value="Std. 4th" selected>Std. 4th</option>
+                                        <option value="Std. 5th">Std. 5th</option>
+                                        <option value="Std. 6th">Std. 6th</option>
+                                        <option value="Std. 7th">Std. 7th</option>
+                                        <option value="Std. 8th">Std. 8th</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="inline-slot" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Preferred Slot</label>
+                                    <select id="inline-slot" class="w-full px-3 py-2.5 rounded border border-paper-hairline bg-paper text-sm text-ink focus:outline-none focus:border-terracotta">
+                                        <option value="3:00 PM – 4:30 PM">3:00 – 4:30 PM</option>
+                                        <option value="4:30 PM – 6:00 PM" selected>4:30 – 6:00 PM</option>
+                                        <option value="5:30 PM – 7:00 PM">5:30 – 7:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="inline-focus" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Subject / Area Needing Help</label>
+                                <input id="inline-focus" type="text" placeholder="e.g. Maths tables, English reading, handwriting" class="w-full px-3 py-2.5 rounded border border-paper-hairline bg-paper text-sm text-ink focus:outline-none focus:border-terracotta">
+                            </div>
+
+                            <button type="submit" class="touch-target w-full py-3 rounded-md bg-ink hover:bg-terracotta text-paper font-semibold text-xs uppercase tracking-wider font-mono transition-crisp">
+                                Send Booking via WhatsApp &rarr;
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-paper border-t border-paper-border py-10 text-xs text-ink-secondary">
+            <div class="sim-px max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                    <span class="font-serif text-base font-medium text-ink">NurtureNest Home Academy</span>
+                    <p class="mt-0.5">Flat No. 704, Shree Hari Darshan Residency, Near Balaji Mandir · Phone: <a href="tel:+919157579600" class="font-mono text-ink underline">+91 91575 79600</a></p>
+                </div>
+                <div class="font-mono text-[11px] text-ink-muted">
+                    Jr. KG, Sr. KG &amp; Std. 1st to 8th · 3:00 PM – 7:00 PM
+                </div>
+            </div>
+        </footer>
+
+        <!-- STICKY MOBILE BOTTOM ACTION BAR (< 1024px or inside 390px Simulator) -->
+        <div class="mobile-bottom-bar lg:hidden fixed bottom-0 inset-x-0 z-40 bg-paper/95 backdrop-blur-md border-t border-paper-hairline px-3 py-2 grid grid-cols-2 gap-2.5 shadow-lg">
+            <a href="tel:+919157579600"
+               class="touch-target rounded-md border border-paper-hairline bg-white text-ink font-mono text-xs font-semibold tabular-nums inline-flex items-center justify-center gap-1.5 active:bg-paper-warm">
+                <svg class="w-4 h-4 text-terracotta shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call 91575 79600</span>
+            </a>
+            <a href="https://wa.me/919157579600?text=Hello%20Teacher%2C%20I%20want%20to%20book%20the%20Pre-Admission%20Level%20Check%20and%202-Day%20Free%20Demo%20at%20Flat%20704%2C%20Shree%20Hari%20Darshan%20Residency."
+               target="_blank" rel="noopener noreferrer"
+               class="touch-target rounded-md bg-forest hover:bg-forest-hover text-white text-xs font-semibold inline-flex items-center justify-center gap-1.5">
+                <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <span>WhatsApp 2-Day Demo</span>
+            </a>
+        </div>
+
+    </div><!-- /#site-viewport-wrapper -->
+
+    <!-- TRIAL & LEVEL CHECK MODAL -->
+    <div id="trial-modal" class="fixed inset-0 z-50 bg-ink/60 hidden items-center justify-center p-4">
+        <div class="bg-paper border border-paper-hairline rounded-lg max-w-md w-full p-6 shadow-xl relative">
+            <button type="button" onclick="closeTrialModal()" class="absolute top-4 right-4 text-ink-muted hover:text-ink p-1" aria-label="Close modal">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+
+            <span class="font-mono text-[10px] uppercase tracking-wider text-terracotta font-semibold block">Step 1 + Step 2</span>
+            <h3 class="font-serif text-2xl text-ink mt-0.5">Book Level Check &amp; 2-Day Demo</h3>
+            <p class="text-xs text-ink-secondary mt-1 mb-5">
+                Flat No. 704, Shree Hari Darshan Residency (Near Balaji Mandir) or Online.
+            </p>
+
+            <form onsubmit="submitModalForm(event)" class="space-y-3.5">
+                <div>
+                    <label for="modal-child-name" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Child's Full Name</label>
+                    <input id="modal-child-name" type="text" required placeholder="Enter child's name" class="w-full px-3 py-2 rounded border border-paper-hairline bg-white text-sm text-ink focus:outline-none focus:border-terracotta">
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label for="modal-grade" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Standard</label>
+                        <select id="modal-grade" class="w-full px-3 py-2 rounded border border-paper-hairline bg-white text-sm text-ink focus:outline-none focus:border-terracotta">
+                            <option value="Jr. KG">Jr. KG</option>
+                            <option value="Sr. KG">Sr. KG</option>
+                            <option value="Std. 1st">Std. 1st</option>
+                            <option value="Std. 2nd">Std. 2nd</option>
+                            <option value="Std. 3rd">Std. 3rd</option>
+                            <option value="Std. 4th" selected>Std. 4th</option>
+                            <option value="Std. 5th">Std. 5th</option>
+                            <option value="Std. 6th">Std. 6th</option>
+                            <option value="Std. 7th">Std. 7th</option>
+                            <option value="Std. 8th">Std. 8th</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="modal-mode" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Mode</label>
+                        <select id="modal-mode" class="w-full px-3 py-2 rounded border border-paper-hairline bg-white text-sm text-ink focus:outline-none focus:border-terracotta">
+                            <option value="Offline (Flat 704)">Offline (Flat 704)</option>
+                            <option value="Online Class">Online Class</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="modal-batch" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Preferred 1.5-Hr Slot (3 PM – 7 PM)</label>
+                    <select id="modal-batch" class="w-full px-3 py-2 rounded border border-paper-hairline bg-white text-sm text-ink focus:outline-none focus:border-terracotta">
+                        <option value="Batch A (3:00 PM – 4:30 PM)">Batch A (3:00 PM – 4:30 PM)</option>
+                        <option value="Batch B (4:30 PM – 6:00 PM)" selected>Batch B (4:30 PM – 6:00 PM)</option>
+                        <option value="Batch C (5:30 PM – 7:00 PM)">Batch C (5:30 PM – 7:00 PM)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="modal-notes" class="block font-mono text-[11px] uppercase text-ink-secondary mb-1">Any Specific Subject Concern?</label>
+                    <input id="modal-notes" type="text" placeholder="e.g. Needs confidence in Maths & reading" class="w-full px-3 py-2 rounded border border-paper-hairline bg-white text-sm text-ink focus:outline-none focus:border-terracotta">
+                </div>
+
+                <button type="submit" class="w-full py-3 rounded-md bg-terracotta hover:bg-terracotta-hover text-white font-semibold text-sm transition-crisp mt-2">
+                    Confirm Slot via WhatsApp (+91 91575 79600)
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Interactive Logic (Zero external JS dependencies) -->
+    <script>
+        // 1. Mobile Navigation Drawer (Accessible Toggle + Outside Click & Anchor Close)
+        function toggleMobileNav() {
+            const nav = document.getElementById('mobile-nav');
+            const btn = document.getElementById('mobile-menu-btn');
+            const openIcon = document.getElementById('menu-icon-open');
+            const closeIcon = document.getElementById('menu-icon-close');
+            const isHidden = nav.classList.contains('hidden');
+
+            if (isHidden) {
+                nav.classList.remove('hidden');
+                openIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+                btn.setAttribute('aria-expanded', 'true');
+            } else {
+                closeMobileNav();
+            }
+        }
+
+        function closeMobileNav() {
+            const nav = document.getElementById('mobile-nav');
+            const btn = document.getElementById('mobile-menu-btn');
+            const openIcon = document.getElementById('menu-icon-open');
+            const closeIcon = document.getElementById('menu-icon-close');
+            if (!nav) return;
+            nav.classList.add('hidden');
+            openIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+        }
+
+        // Close mobile drawer when tapping outside header
+        document.addEventListener('click', function(e) {
+            const header = document.getElementById('main-header');
+            const nav = document.getElementById('mobile-nav');
+            if (header && nav && !nav.classList.contains('hidden') && !header.contains(e.target)) {
+                closeMobileNav();
+            }
+        });
+
+        // Desktop / Mobile Viewport Preview Switcher (Forces True 390px Mobile Layout on Desktop)
+        function setViewportMode(mode) {
+            const btnDesktop = document.getElementById('view-btn-desktop');
+            const btnMobile = document.getElementById('view-btn-mobile');
+            closeMobileNav();
+
+            if (mode === 'mobile') {
+                document.body.classList.add('is-mobile-preview');
+                btnMobile.className = 'px-2.5 py-1 rounded bg-terracotta text-white font-semibold transition-crisp';
+                btnDesktop.className = 'px-2.5 py-1 rounded text-ink-secondary hover:text-ink font-semibold transition-crisp';
+            } else {
+                document.body.classList.remove('is-mobile-preview');
+                btnDesktop.className = 'px-2.5 py-1 rounded bg-ink text-paper font-semibold transition-crisp';
+                btnMobile.className = 'px-2.5 py-1 rounded text-ink-secondary hover:text-ink font-semibold transition-crisp';
+            }
+        }
+
+        // 2. Hero Artifact Switcher (Baseline Level Check vs. Saturday Test Report)
+        function switchArtifact(view) {
+            const baselineEl = document.getElementById('artifact-baseline');
+            const saturdayEl = document.getElementById('artifact-saturday');
+            const btnBaseline = document.getElementById('tab-btn-baseline');
+            const btnSaturday = document.getElementById('tab-btn-saturday');
+
+            if (view === 'baseline') {
+                baselineEl.classList.remove('hidden');
+                saturdayEl.classList.add('hidden');
+                btnBaseline.className = 'px-2.5 py-1.5 rounded font-medium bg-ink text-paper transition-crisp';
+                btnSaturday.className = 'px-2.5 py-1.5 rounded font-medium text-ink-secondary hover:text-ink transition-crisp';
+            } else {
+                baselineEl.classList.add('hidden');
+                saturdayEl.classList.remove('hidden');
+                btnSaturday.className = 'px-2.5 py-1.5 rounded font-medium bg-ink text-paper transition-crisp';
+                btnBaseline.className = 'px-2.5 py-1.5 rounded font-medium text-ink-secondary hover:text-ink transition-crisp';
+            }
+        }
+
+        // 3. Grade Group Curriculum Filter
+        function filterGradeTab(group) {
+            const tabs = ['all', 'kg', 'primary', 'middle'];
+            tabs.forEach(t => {
+                const btn = document.getElementById('grade-tab-' + t);
+                if (t === group) {
+                    btn.className = 'grade-tab px-3 py-2 rounded bg-ink text-paper transition-crisp';
+                } else {
+                    btn.className = 'grade-tab px-3 py-2 rounded text-ink-secondary hover:text-ink transition-crisp';
+                }
+            });
+
+            const cards = document.querySelectorAll('.curriculum-card');
+            cards.forEach(card => {
+                if (group === 'all' || card.getAttribute('data-grade-group') === group) {
+                    card.classList.remove('opacity-40');
+                    card.classList.add('ring-1', 'ring-terracotta/40');
+                    if (group === 'all') card.classList.remove('ring-1', 'ring-terracotta/40');
+                } else {
+                    card.classList.add('opacity-40');
+                    card.classList.remove('ring-1', 'ring-terracotta/40');
+                }
+            });
+        }
+
+        // 4. Interactive Batch & Syllabus Configurator State
+        let currentLedgerState = {
+            gradeKey: 'std1_5',
+            gradeLabel: 'Std. 1 – 5',
+            scope: 'All Subjects + Daily School Diary Homework, Tables & Reading',
+            slot: 'Batch B: 4:30–6:00 PM',
+            mode: 'Offline at Flat 704'
+        };
+
+        function selectLedgerGrade(key, label, scopeText) {
+            currentLedgerState.gradeKey = key;
+            currentLedgerState.gradeLabel = label;
+            currentLedgerState.scope = scopeText;
+
+            const keys = ['kg', 'std1_5', 'std6_8'];
+            keys.forEach(k => {
+                const btn = document.getElementById('ledger-grade-' + k);
+                const sub = btn.querySelector('span:first-child');
+                if (k === key) {
+                    btn.className = 'ledger-grade-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left transition-crisp';
+                    sub.classList.remove('text-ink-muted');
+                    sub.classList.add('text-terracotta', 'font-semibold');
+                } else {
+                    btn.className = 'ledger-grade-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp';
+                    sub.classList.remove('text-terracotta', 'font-semibold');
+                    sub.classList.add('text-ink-muted');
+                }
+            });
+
+            document.getElementById('summary-grade-title').textContent = label;
+            document.getElementById('summary-scope').textContent = scopeText;
+        }
+
+        function selectLedgerSlot(slotLabel) {
+            currentLedgerState.slot = slotLabel;
+            const map = {
+                'Batch A: 3:00–4:30 PM': 'a',
+                'Batch B: 4:30–6:00 PM': 'b',
+                'Batch C: 5:30–7:00 PM': 'c'
+            };
+            ['a', 'b', 'c'].forEach(id => {
+                const btn = document.getElementById('ledger-slot-' + id);
+                const tag = btn.querySelector('span:first-child');
+                if (map[slotLabel] === id) {
+                    btn.className = 'ledger-slot-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left transition-crisp';
+                    tag.classList.remove('text-ink-muted');
+                    tag.classList.add('text-terracotta', 'font-semibold');
+                } else {
+                    btn.className = 'ledger-slot-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left transition-crisp';
+                    tag.classList.remove('text-terracotta', 'font-semibold');
+                    tag.classList.add('text-ink-muted');
+                }
+            });
+            document.getElementById('summary-slot').textContent = slotLabel;
+        }
+
+        function selectLedgerMode(modeLabel) {
+            currentLedgerState.mode = modeLabel;
+            const isOffline = modeLabel.indexOf('Offline') !== -1;
+            const offBtn = document.getElementById('ledger-mode-offline');
+            const onBtn = document.getElementById('ledger-mode-online');
+
+            if (isOffline) {
+                offBtn.className = 'ledger-mode-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left flex items-center justify-between gap-2 transition-crisp';
+                onBtn.className = 'ledger-mode-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left flex items-center justify-between gap-2 transition-crisp';
+            } else {
+                onBtn.className = 'ledger-mode-btn touch-target p-3.5 rounded-md border-2 border-terracotta bg-terracotta-tint/40 text-left flex items-center justify-between gap-2 transition-crisp';
+                offBtn.className = 'ledger-mode-btn touch-target p-3.5 rounded-md border border-paper-hairline bg-white text-left flex items-center justify-between gap-2 transition-crisp';
+            }
+            document.getElementById('summary-mode').textContent = modeLabel;
+        }
+
+        function sendConfiguredWhatsApp() {
+            const msg = `Hello Teacher, I would like to book the Pre-Admission Level Check & 2-Day Free Demo at NurtureNest Home Academy (Flat 704, Shree Hari Darshan Residency).\n\n` +
+                        `• Grade Group: ${currentLedgerState.gradeLabel}\n` +
+                        `• Preferred 1.5-Hr Slot: ${currentLedgerState.slot}\n` +
+                        `• Mode: ${currentLedgerState.mode}\n\n` +
+                        `Please share a convenient time for my child's assessment.`;
+            window.open(`https://wa.me/919157579600?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        // 5. FAQ Accordion
+        function toggleFaqItem(btn) {
+            const answer = btn.nextElementSibling;
+            const symbol = btn.querySelector('.faq-symbol');
+            const isHidden = answer.classList.contains('hidden');
+
+            document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.faq-symbol').forEach(el => el.textContent = '+');
+
+            if (isHidden) {
+                answer.classList.remove('hidden');
+                symbol.textContent = '−';
+            }
+        }
+
+        // 6. Modal & Direct WhatsApp Dispatchers
+        const modalEl = document.getElementById('trial-modal');
+
+        function openTrialModal(presetNote) {
+            modalEl.classList.remove('hidden');
+            modalEl.classList.add('flex');
+            if (presetNote) {
+                document.getElementById('modal-notes').value = `Enquiring for ${presetNote}`;
+            }
+        }
+
+        function closeTrialModal() {
+            modalEl.classList.add('hidden');
+            modalEl.classList.remove('flex');
+        }
+
+        modalEl.addEventListener('click', function(e) {
+            if (e.target === modalEl) closeTrialModal();
+        });
+
+        function submitModalForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('modal-child-name').value.trim();
+            const grade = document.getElementById('modal-grade').value;
+            const mode = document.getElementById('modal-mode').value;
+            const batch = document.getElementById('modal-batch').value;
+            const notes = document.getElementById('modal-notes').value.trim();
+
+            const msg = `Hello Teacher, I want to book the Baseline Level Check & 2-Day Free Trial.\n\n` +
+                        `• Child's Name: ${name}\n` +
+                        `• Standard: ${grade}\n` +
+                        `• Preferred Batch: ${batch}\n` +
+                        `• Mode: ${mode}` +
+                        (notes ? `\n• Note: ${notes}` : '');
+
+            closeTrialModal();
+            window.open(`https://wa.me/919157579600?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        function submitInlineForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('inline-name').value.trim();
+            const grade = document.getElementById('inline-grade').value;
+            const slot = document.getElementById('inline-slot').value;
+            const focus = document.getElementById('inline-focus').value.trim();
+
+            const msg = `Hello Teacher, I want to schedule a Baseline Level Assessment for my child.\n\n` +
+                        `• Child's Name: ${name}\n` +
+                        `• Standard: ${grade}\n` +
+                        `• Preferred 1.5-Hr Slot: ${slot}` +
+                        (focus ? `\n• Focus Area: ${focus}` : '');
+
+            window.open(`https://wa.me/919157579600?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+    </script>
+</body>
+</html>
